@@ -51,24 +51,24 @@ subsequent step just pass the new inner loop/dynamic weights to the network.
 The datasets folder contains CSV files that have been divided. If you want to repeat this work, you need to preprocess the data.
 
 For DrugBank dataset
-```
+```python
 python drugbank_split.ipynb
 ```
 For TWOSIDES dataset
-```
+```python
 python twoside_split.ipynb
 ```
 ## 2. Run
 The code is based off the public code of [MAML++](https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch), where their reimplementation of MAML is used as the baseline.
 
 To run an experiment from the paper on DrugBank:
-```
+```python
 python train_maml_system.py --name_of_args_json_file  config/drugbank_maml++.json 
 ```
 
 To run an experiment from the paper on TWOSIDES:
 
-```
+```python
 python train_maml_system.py --name_of_args_json_file  config/twoside_maml++.json 
 ```
 
