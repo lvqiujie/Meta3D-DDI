@@ -73,5 +73,5 @@ python train_maml_system.py --name_of_args_json_file  config/twoside_maml++.json
 ```
 
 # Reference
- 
+Qiujie Lv, Jun Zhou, Ziduo Yang, Haohuai He, and Calvin Yu-Chian Chen, 3D Graph Neural Network with Few-Shot Learning for Predicting Drug-Drug Interactions in Scaffold-based Cold Start Scenarios
  
