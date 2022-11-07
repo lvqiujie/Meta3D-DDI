@@ -11,4 +11,5 @@ model = MAMLFewShotClassifier(args=args, device=device)
 
 maml_system = ExperimentBuilder(model=model, data=MetaLearningSystemDataLoader, args=args, device=device)
 maml_system.run_experiment()
+
 # maml_system.run_test([1,2])
